@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0;
+    margin: 0 auto;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+    border-bottom: none;
+    text-decoration: none;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10px;
+    font-size: 24px;
+}
+.left a{
+    color: rgba(2, 9, 14, 0.507);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.right button{
+    padding: 8px 25px;
+    background-color: rgb(19, 203, 50);
+    border-radius: 5px;
+    color: aliceblue;
+}   
+.left a:nth-of-type(1) {
+    color: rgb(16, 118, 43);
+}
+.javohir{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 105px;
+}
+.div1{
+    margin: 7px 0 0 0;
+}
+.div1 h1{
+    width: 400px;
+    font-size: 100px;
+    margin: 10px 0;
+}
+.div1 h6{
+    font-size: 22px;
+}
+.div1 p{
+    width: 380px;
+    gap: 1000px;
+    padding: 20px 0;
+}
+.div1 button{
+    color: aliceblue;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(20, 159, 64);
+    border-radius: 5px;
+}
+.div2{
+    background-image: url("./2.png");
+    width: 630px;
+    height: 750px;
+    margin: 50px 0 0 0;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 8px 8px;
+}
+.div2 img{
+    margin: 350px 0 0 270px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(198, 232, 220);
+    width: 1455px;
+    height: 700px;
+}
+.asd{
+    background-image: url("./6.png");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 850px;
+    margin: 350px 0 0 110px;
+}
+.asd img{
+    margin: 40px 0 0 270px;
+}
+.zxc h2{
+    font-size: 70px;
+    width: 650px;
+    margin: 0 40px 40px 0;
+}
+.zxc p{
+    width: 500px;
+    margin: 0 0 50px 0;
+}
+.zxc button{
+    padding: 10px 20px;
+    background-color: rgb(21, 171, 39);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.ona{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #094319;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1455px;
+    height: 600px;
+    color: aliceblue;
+    padding: 0 110px;
+}
+.jb h1{
+    font-size: 65px;
+    width: 700px;
+    height: 200px;
+}
+.jb p{
+    width: 600px;
+    height: 100px;
+    gap: 10px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a p{
+    width: 160px;
+}
+.ota{
+    background-color: #EBFAEF;
+    width: 1455px;
+    height: 750px;
+    padding: 45px 110px;
+}
+.r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yes{
+    font-size: 35px;
+    width: 600px;
+    margin: 100px 0;
+}
+.no{
+    width: 430px;
+    font-size: 20px;
+}
+.dost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dost img{
+    width: 440px;
+    height: 400px;
+}
+.bmw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 110px;
+}
+.f{
+    font-size: 35px;
+    width: 600px;
+}
+.g{
+    width: 500px;
+    font-size: 17px;
+    gap: 10px;
+}
+.bmw1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.l{
+    margin-left: 110px;
+}
+.bmw2{
+    padding: 30px 110px;
+    display: flex;
+    gap: 45px;
+}
+.h{
+    background-color: rgba(0, 0, 0, 0.34);
+    width: 2px;
+    height: 100px;
+}
+.uy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 110px;
+    position: relative;
+    gap: 0px;
+}
+.w{
+    background-image: url("./20.png");
+    width: 1300px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 0 0 0 290px;
+}
+.w img{
+    position: absolute;
+    transform: translateX(-150px);
+    margin: 100px 0 100px 0;
+}
+.o h1{
+    font-size: 40px;
+    width: 450px;
+    margin: 0 0 150px 0;
+}
+.o p{
+    width: 400px;
+    padding: 0 0 30px 0;
+    margin: 0 0 0px 0;
+}
+.y{
+    padding: 0  0 0;
+}
