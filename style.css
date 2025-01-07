@@ -132,6 +132,10 @@
     color: aliceblue;
     padding: 0 110px;
 }
+.bj img{
+    position: relative;
+    z-index: 50;
+}
 .jb h1{
     font-size: 65px;
     width: 700px;
@@ -184,6 +188,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 60px 110px;
+}
+.ona{
+    overflow: hidden;
+}
+.ona .shakl{
+    position: absolute;
+    top: 250px;
+    right: -200px;
+    width: 625px;
+    height: 625px;background: gold;
+    border-radius: 50%;
+    z-index: 1;
 }
 .f{
     font-size: 35px;
